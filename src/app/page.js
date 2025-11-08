@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa6";
 import { FaShoppingCart, FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-
+// menu function
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const categories = [
